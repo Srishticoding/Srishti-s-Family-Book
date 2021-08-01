@@ -1,0 +1,42 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="style.css"  
+  </head>
+  <title> Family Book</title>
+  <body>
+    <h1> Family Book</h1>
+    <hr> <hr>
+    <img id="family_img" src="http://media.hdp.hbgusa.com/coverimages/9780316070409/">
+    <h3 id="one">1. Our Family Book</h3>
+     <button type="button" onclick="family()">Next</button>
+<hr>
+   <script>
+   var names=[
+   "2. My Mother (Bidisha Basu)",
+   "3. My Father (Vijoy Basu)",
+   "4. My Brother (Depanjan Basu)",
+   "5. Me (Srishti Basu)",
+   "6. My Grandfather (Subhash Guha)",
+   "7. My Grandmother (Gopa Guha)",
+   "8. My Pet Dog (Lucy)"
+   ];
+ var images=[
+ "https://webstockreview.net/images/clipart-face-mother-14.png",
+  "https://i.pinimg.com/originals/87/b8/3b/87b83ba77a10a1d3313ed7872918524d.jpg",
+  "https://learnenglishkids.britishcouncil.org/sites/kids/files/RS1675_Boy%20col-web.jpg",
+  "https://www.clipartkey.com/mpngs/m/63-636927_sister-clip-art-curly-haired-girl-animated.png",
+  "https://www.clipartkey.com/mpngs/m/298-2980192_grandpa-clipart-animated-grandfather-clipart.png",
+  "https://webstockreview.net/images/grandmother-clipart-saree-clipart-1.png",
+  "https://clipartmag.com/images/sad-puppy-cartoons-13.jpg"
+ ];
+ var i=0;
+ function family(){
+   document.getElementById("one").innerHTML=names[i];
+   document.getElementById("family_img").src=images[i];
+   i++;
+   if(i==7){
+     i=0;
+   }}
+  </script>
+  </body>
+</html>

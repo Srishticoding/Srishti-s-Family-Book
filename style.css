@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(rgb(245, 175, 216),rgb(227, 168, 245),rgb(127, 233, 247));
+}
+#family_img{
+    width:25%;
+    height: 60%;
+}
+button{
+    font-size:25px;
+    background-color:rgb(207, 241, 10);
+    border-radius:20%;
+    color:black;
+}
+h1{
+    font-size:  40px;
+    color: rgb(238, 18, 48);
+   text-decoration: underline;
+}
+h3{
+    font-size: 30px;
+    color:rgb(0, 9, 128);
+    font-weight: bold;
+    text-decoration: underline;
+}
